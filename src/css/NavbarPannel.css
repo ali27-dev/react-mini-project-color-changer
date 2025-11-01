@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 62.5%; /* 1rem = 10px */
+  font-weight: 400; /* Default weight */
+  /* color: #707070; */
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.navbar-pannel {
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #fff;
+  width: 90%;
+  height: 4rem;
+  border-radius: 1.2rem;
+  padding: 1rem;
+}
+
+.btn-box > button {
+  padding: 0.8rem 1.4rem;
+  border-radius: 14rem;
+  border: none;
+}
+
+.Red {
+  color: #fff;
+  background-color: red;
+}
+.Green {
+  color: #fff;
+  background-color: Green;
+}
+.Blue {
+  color: #fff;
+  background-color: Blue;
+}
+.Olive {
+  color: #fff;
+  background-color: Olive;
+}
+.Gray {
+  color: #fff;
+  background-color: Gray;
+}
+.Yellow {
+  background-color: Yellow;
+}
+.Pink {
+  background-color: Pink;
+}
+.Purple {
+  color: #fff;
+  background-color: Purple;
+}
+.Lavender {
+  background-color: Lavender;
+}
+.White {
+  background-color: White;
+}
+.Black {
+  color: #fff;
+  background-color: Black;
+}

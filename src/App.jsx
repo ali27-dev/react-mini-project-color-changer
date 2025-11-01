@@ -1,8 +1,10 @@
-import { useState } from "react";
+import React from "react";
+import NavbarPannel from "./NavbarPannel";
+
 function App() {
   return (
     <>
-      <h1>Hello World!</h1>
+      <NavbarPannel />
     </>
   );
 }
